@@ -28,10 +28,12 @@
 #define COLOR_WHITE  RGB565(255, 255, 255)  // 흰색
 
 // BMP 파일 이름 배열
+// BMP 파일 이름 배열 (경로 수정 버전)
 const char *horse_bmps[HORSES] = {
-    "Black.bmp", "Blue.bmp", "Yellow.bmp", "DeepBlue.bmp",
-    "Gray.bmp", "Green.bmp", "Mint.bmp", "Red.bmp"
+    "./images/Black.bmp", "./images/Blue.bmp", "./images/Yellow.bmp", "./images/DeepBlue.bmp",
+    "./images/Gray.bmp", "./images/Green.bmp", "./images/Mint.bmp", "./images/Red.bmp"
 };
+
 
 // 말 색상 이름 배열 (경주 결과 출력 시 사용)
 const char *horse_colors[HORSES] = {
